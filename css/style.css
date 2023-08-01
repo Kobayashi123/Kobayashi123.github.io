@@ -319,6 +319,26 @@
     margin-right: 40px;
   }
 
+  #link {
+    width: 920px;
+    margin: 0 auto 130px auto;
+    padding: 0;
+  }
+
+  #link section {
+    float: left;
+    width: 280px;
+    height: auto;
+    margin: auto;
+  }
+
+  #link section img {
+    margin: auto;
+    width: 30%;
+    display: block;
+    height: auto;
+  }
+
   #main h2.ttl {
     margin-bottom: 65px;
     font-size: 50px;
