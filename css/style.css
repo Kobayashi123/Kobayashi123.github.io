@@ -135,6 +135,37 @@
   letter-spacing: 0.1em;
 }
 
+/* background */
+#background {
+  margin-bottom: 60px;
+  padding: 0 30px;
+}
+
+#background .text {
+  width: 50%;
+  text-align: left;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#background section {
+  margin-bottom: 40px;
+}
+
+#background section.last {
+  margin-bottom: 0;
+}
+
+#background section .icon {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#background section .icon img {
+  width: 49px;
+  height: 51px;
+}
+
 /* タブレット向け：760px～960px */
 @media only screen and (min-width: 760px) {
   /* mainVisual */

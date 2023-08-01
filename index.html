@@ -75,9 +75,9 @@
     <!-- header -->
     <header>
       <h1 id="logo">
-        <a href="https://moz-security.me/index.html"
-          ><img src="image/top.png" alt="Moz"
-        /></a>
+        <a href="https://moz-security.me/index.html">
+          <img src="image/top.png" alt="Moz" />
+        </a>
       </h1>
       <nav>
         <ul class="cf">
@@ -105,35 +105,35 @@
       <!-- about -->
       <section id="about" class="cf">
         <h2 class="ttl">About</h2>
-        <div class="text">
-          <p>
+        <ul class="text">
+          <li>
             <i class="fa-solid fa-signature"></i>
             小林 舜 Kobayashi Shun
-          </p>
-          <p><i class="fa-solid fa-house"></i> 京都市</p>
-          <p>
+          </li>
+          <li><i class="fa-solid fa-house"></i> 京都市</li>
+          <li>
             <i class="fa-regular fa-envelope"></i>
-            shun123k@gmail.com
-          </p>
-          <p>
+            <a href="mailto:shun123k@gmail.com">shun123k@gmail.com</a>
+          </li>
+          <li>
             <a href="https://twitter.com/Moz_sec_" target="_blank">
               <i class="fa-brands fa-twitter"></i>
               @Moz_sec_
             </a>
-          </p>
-          <p>
+          </li>
+          <li>
             <a href="https://github.com/Kobayashi123" target="_blank">
               <i class="fa-brands fa-github"></i>
               Kobayashi123
             </a>
-          </p>
-        </div>
+          </li>
+        </ul>
       </section>
 
       <!-- profile -->
       <section id="interest" class="cf">
         <h2 class="ttl">Profile</h2>
-        <div style="font-size: large">
+        <div>
           <p>
             京都の大学の理工系学部でコンピュータサイエンスを学んでいます．今年B4で，あとは研究のみです．
           </p>
@@ -166,10 +166,15 @@
               alt="programming"
             />
           </p>
-          <p class="text01">
-            C, Java, Python, PHP, Go, Rust, JavaScript
-            を触ってきました．最近は，Pythonを書くことが多いです．
-          </p>
+          <div class="text01">
+            <p>
+              言語としては，C, Java, Python, PHP, JavaScript, Go, Rust
+              を触ってきました．
+            </p>
+            <p>フレームワークは，Django，CakePHPの経験があります．</p>
+            <p>最近は，Pythonを書くことが多いです．</p>
+            <p>IT技術全ての基幹だからこそ，外せないものだと考えています．</p>
+          </div>
         </section>
 
         <section>
@@ -201,30 +206,53 @@
           <p class="icon">
             <img src="https://moz-security.me/logo/web.svg" alt="web" />
           </p>
-          <div class="text01">今は</div>
+          <div class="text01">
+            <p>
+              Webアプリケーションの脆弱性を狙った攻撃は今も増加しており，それを減らすことができる人になるために，日々勉強しています．
+            </p>
+            <p>
+              また最近は，Webセキュリティだけでなく，Web配信基盤やCI&CDなどにも興味があります．
+            </p>
+          </div>
         </section>
       </section>
 
       <!-- background -->
-      <section id="interest" class="cf">
+      <section id="background" class="cf">
         <h2 class="ttl">Background</h2>
-        <p style="text-align: center">
-          2020.04.01: 京都産業大学 情報理工学部 入学
-        </p>
-        <p style="text-align: center">2021.10. : 基本情報技術者試験 合格</p>
-        <p style="text-align: center">2021.08. : ハッカソン</p>
-        <p style="text-align: center">
-          2021.08. - 2021.08. : NEC ネッツエスアイ
-          サイバーセキュリティインターンシップ 2 Weeks
-        </p>
-        <p style="text-align: center">2022.10. : 応用情報技術者試験 合格</p>
-        <p style="text-align: center">
-          2023.03. - (現在): 株式会社 DONUTS インターンシップ
-        </p>
-        <p style="text-align: center">
-          2023.05. : GMO インターネットグループ ハッカソン
-        </p>
-        <p style="text-align: center">2023.08. : 情報処理安全確保支援士 合格</p>
+        <ul class="text cf">
+          <li>2021.11.30 : 基本情報技術者試験（FE） 合格</li>
+          <li>
+            2022.03.19 :
+            <a href="http://info.cse.kyoto-su.ac.jp/?page_id=10073">
+              京都産業大学 第30回 デジタルコンテンツコンテスト
+            </a>
+            最優秀賞
+          </li>
+          <li>
+            2022.08.08 - 2022.08.09 :
+            <a
+              href="https://developers.prtimes.jp/2022/08/30/prtimes-hackathon-2022summer/"
+            >
+              PR TIMES HACKATHON 2022 Summer
+            </a>
+          </li>
+          <li>
+            2022.08.29 - 2021.09.09 : NEC ネッツエスアイ
+            サイバーセキュリティインターンシップ 2 Weeks
+          </li>
+          <li>2022.12.22 : 応用情報技術者試験（AP） 合格</li>
+          <li>
+            2023.03.01 - (現在): 株式会社 DONUTS 開発グループ インターンシップ
+          </li>
+          <li>
+            2023.04.29 - 2023.04.30 :
+            <a href="https://developers.gmo.jp/33522/">
+              DevSecOpsThon 2023 at GMO kitaQ
+            </a>
+          </li>
+          <li>2023.06.29 : 情報処理安全確保支援士試験（SC） 合格</li>
+        </ul>
       </section>
 
       <!-- toTop -->
@@ -241,16 +269,6 @@
 
     <!-- footer -->
     <footer class="cf">
-      <nav class="footer">
-        <ul class="cf">
-          <li class="works">
-            <a href="https://moz-security.me/Note/">Note</a>
-          </li>
-          <li class="blog">
-            <a href="https://moz-security.hatenablog.com/">Blog</a>
-          </li>
-        </ul>
-      </nav>
       <p id="copyright"><small>© 2023 Moz</small></p>
     </footer>
   </body>

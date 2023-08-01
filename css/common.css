@@ -218,7 +218,7 @@ nav.footer {
 
 #copyright {
   margin-bottom: 20px;
-  text-align: center;
+  text-align: left;
   font-size: 12px;
 }
 
@@ -372,11 +372,11 @@ nav.footer {
   }
 
   #copyright {
-    float: right;
-    width: 40%;
+    float: center;
+    width: auto;
     margin-top: 32px;
     margin-bottom: 0;
-    text-align: right;
+    text-align: center;
   }
 }
 
