@@ -21,6 +21,38 @@
   display: block;
 }
 
+/* about */
+#about {
+  margin-bottom: 60px;
+  padding: 0 30px;
+}
+
+#about .text {
+  font-size: large;
+  width: 240px;
+  text-align: left;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#about section {
+  margin-bottom: 40px;
+}
+
+#about section.last {
+  margin-bottom: 0;
+}
+
+#about section .icon {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#about section .icon img {
+  width: 49px;
+  height: 51px;
+}
+
 /* interest */
 #interest {
   margin-bottom: 60px;
