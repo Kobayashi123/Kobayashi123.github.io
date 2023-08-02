@@ -78,10 +78,7 @@ nav li {
   text-align: center;
 }
 
-#about nav li.about a,
-#works nav li.works a,
-#blog nav li.blog a,
-#contact nav li.contact a {
+#about nav li.about a {
   opacity: 0.3;
 }
 
@@ -212,10 +209,6 @@ nav ul li a {
 
 /* footer
 ----------------------------------------- */
-nav.footer {
-  margin-bottom: 20px;
-}
-
 #copyright {
   margin-bottom: 20px;
   text-align: left;
