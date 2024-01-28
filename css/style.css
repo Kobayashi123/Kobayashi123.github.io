@@ -53,6 +53,16 @@
   height: 51px;
 }
 
+/* profile */
+#profile {
+  margin-bottom: 60px;
+  padding: 0 30px;
+}
+
+#profile {
+  margin-bottom: 40px;
+}
+
 /* interest */
 #interest {
   margin-bottom: 60px;
@@ -163,6 +173,20 @@
     display: none;
   }
 
+  /* profile */
+  #profile {
+    max-width: 920px;
+    margin: 0 5% 130px 5%;
+    padding: 0;
+  }
+
+  #profile section {
+    float: left;
+    width: 30%;
+    height: auto;
+    margin-right: 5%;
+  }
+
   /* interest */
   #interest {
     max-width: 920px;
@@ -175,10 +199,12 @@
     width: 30%;
     height: auto;
     margin-right: 5%;
+    margin-bottom: 0;
   }
 
   #interest section.last {
     margin-right: 0;
+    margin-bottom: 0;
   }
 
   #interest section .icon {
@@ -189,14 +215,6 @@
   #interest section .icon img {
     width: 98px;
     height: 102px;
-  }
-
-  #interest section {
-    margin-bottom: 0;
-  }
-
-  #interest section.last {
-    margin-bottom: 0;
   }
 
   /* link */
@@ -256,6 +274,20 @@
 
 /* PC向けレイアウトの指定：961px～ */
 @media only screen and (min-width: 961px) {
+  /* profile */
+  #profile {
+    width: 920px;
+    margin: 0 auto 130px auto;
+    padding: 0;
+  }
+
+  #profile section {
+    float: left;
+    width: 280px;
+    height: auto;
+    margin-right: 40px;
+  }
+
   /* interest */
   #interest {
     width: 920px;
